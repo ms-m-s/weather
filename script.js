@@ -1,9 +1,7 @@
-alert("This website needs to access your location to display the correct information");
-
 navigator.geolocation.getCurrentPosition((position) => {
     var latitude = position.coords.latitude;
     var longitude = position.coords.longitude;
-    var url = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=4c5625a855d241482d21471074d82494`;
+    var url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=4c5625a855d241482d21471074d82494`;
 
     fetch(url).then(function (response) {
         return response.json();

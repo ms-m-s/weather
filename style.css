@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(34, 47, 88);
+}
+
+.container {
+  background-color: white;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 8px;  
+}
+
+#title,
+#icon,
+.temp,
+#dscp,
+#country,
+.end {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: rgb(34, 47, 88);
+}
+
+#icon,
+.temp,
+#dscp,
+#country {
+  background-color: azure;
+}
+
+#title,
+.end {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#icon,
+.temp,
+#dscp,
+#country {
+  padding-bottom: 5px;
+}
+
+#title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+#dscp {
+  font-size: 1.3rem;
+}
+
+#country {
+  font-size: 0.75rem;
+}
+
+input {
+  border: 0;
+  background-color: transparent;
+}
+
+button {
+  border: 0px;
+  background-color: transparent;
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(34, 47, 88);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+@media (max-width: 650px) {
+  button {
+    font-size: 2rem;
+  }
+  #title {
+    font-size: 1rem;
+  }
+
+  #dscp {
+    font-size: 1rem;
+  }
+
+  #country {
+    font-size: 0.5rem;
+  }
+}

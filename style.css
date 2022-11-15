@@ -12,7 +12,7 @@ body {
 #title,
 #icon,
 .temp,
-#dscp,
+#descp,
 #country,
 .end {
   display: flex;
@@ -23,7 +23,7 @@ body {
 
 #icon,
 .temp,
-#dscp,
+#descp,
 #country {
   background-color: azure;
 }
@@ -36,7 +36,7 @@ body {
 
 #icon,
 .temp,
-#dscp,
+#descp,
 #country {
   padding-bottom: 5px;
 }
@@ -46,7 +46,7 @@ body {
   font-weight: bold;
 }
 
-#dscp {
+#descp {
   font-size: 1.3rem;
 }
 
@@ -88,7 +88,7 @@ img {
     font-size: 1rem;
   }
 
-  #dscp {
+  #descp {
     font-size: 1rem;
   }
 

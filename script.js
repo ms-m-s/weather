@@ -11,7 +11,7 @@ navigator.geolocation.getCurrentPosition((position) => {
         else if (data.weather[0].icon == "01n")
             document.getElementById("icon").innerHTML = `<img src="https://cdn-icons-png.flaticon.com/512/3106/3106764.png"/>`;
         else
-            document.getElementById("icon").innerHTML = `<img src="http://openweathermap.org/img/wn/${data.weather[0].icon}.png"/>`;
+            document.getElementById("icon").innerHTML = `<img src="https://openweathermap.org/img/wn/${data.weather[0].icon}.png"/>`;
         var celsius = (parseFloat(data.main.temp) - 273.15).toFixed(2);
         var fahrenheit = ((parseFloat(data.main.temp) * 9 / 5) - 459.67).toFixed(2);
         document.getElementById("temp").innerHTML = celsius + "&deg;<sub>C</sub>";

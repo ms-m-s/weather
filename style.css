@@ -78,8 +78,6 @@ button:hover {
 img {
   width: 100px;
   height: 100px;
-  resize: both;
-  overflow: auto;
 }
 
 @media (max-width: 650px) {
